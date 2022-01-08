@@ -1,14 +1,12 @@
 [package]
-name = "redox_uefi_alloc"
+name = "phoenix_uefi_alloc"
 version = "0.1.2"
-edition = "2018"
+edition = "2021"
 description = "UEFI allocation support"
-license = "MIT"
-authors = ["Jeremy Soller <jackpot51@gmail.com>"]
-repository = "https://gitlab.redox-os.org/redox-os/uefi_alloc"
+
 
 [lib]
 name = "uefi_alloc"
 
 [dependencies]
-redox_uefi = "0.1.2"
+phoenix-uefi = {git = "https://github.com/JakubGawron1/UEFI"}
